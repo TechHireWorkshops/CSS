@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  padding: 0 5vw;
+  min-height: 100vh;
+}
+.page header {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+}
+.page header .header-left {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.page header .header-left img {
+  height: 100%;
+  width: 20%;
+}
+.page header .header-right {
+  height: 100%;
+  width: 20%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.page header .header-right img {
+  height: 80%;
+  width: 20%;
+}
+.page .body {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.page .body-left {
+  width: 65%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+}
+.page .body-left .main {
+  width: 50%;
+  height: 100%;
+  padding: 1vh 2%;
+}
+.page .body-left .main img {
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+}
+.page .body-left .main .main-text {
+  height: 50%;
+  padding-top: 3vh;
+}
+.page .body-left .main .main-text .main-text-author {
+  height: 10%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 3vh;
+}
+.page .body-left .main .main-text .main-text-author img {
+  height: 100%;
+  width: 10%;
+  margin-right: 5%;
+}
+.page .body-left .main .main-text h2 {
+  padding-bottom: 3vh;
+}
+.page .body-left .sidebar {
+  width: 50%;
+  height: 100%;
+}
+.page .body-left .sidebar .article {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 2vh;
+}
+.page .body-left .sidebar .article .article-text .article-text-author {
+  height: 10%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 3vh;
+}
+.page .body-left .sidebar .article .article-text .article-text-author img {
+  height: 100%;
+  width: 10%;
+  margin-right: 5%;
+}
+.page .body-left .sidebar .article img {
+  width: 25%;
+  height: 100%;
+  object-fit: cover;
+}
+.page .body-right {
+  width: 35%;
+  height: 600px;
+  padding: 2vh 2%;
+  border-left: 1px solid grey;
+}
+.page .body-right .creators {
+  width: 100%;
+}
+.page .body-right .creators .creator {
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.page .body-right .creators .creator img {
+  height: 80%;
+  width: 15%;
+  border-radius: 100%;
+}
+.page .body-right .creators .creator .creator-text {
+  width: 60%;
+}
+.page .body-right .creators .creator button {
+  width: 10%;
+}
+
+/*# sourceMappingURL=css.css.map */

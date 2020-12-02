@@ -192,7 +192,7 @@ The box model is the basis on which css is organized, and understanding it is th
 
 A lot of writing good css is writing good html, and understanding how to group elements is how we write good html.  Our goal is to create boxes whenever we have a group of elements that share properties, like a margin or border.  With flexbox in mind, we can start boxing up element according to spacing and layout.
 
-Let's try recreating a site layout.  We're going to use medium as our template.  A good rule of thumb when creating groups to flexbox is to group any set of elements that are uniquely spaces from other sets of elements, and any groups of elements with vertical layouts.
+Let's try recreating a site layout.  We're going to use medium as our template.  A good rule of thumb when creating groups to flexbox is to group any set of elements that are uniquely spaces from other sets of elements, and any groups of elements with vertical layouts within a horizontal layour, or vice versa.
 
 ![](./images/medium.png)
 ![](./images/medium1.png)
@@ -200,3 +200,4 @@ Let's try recreating a site layout.  We're going to use medium as our template. 
 ![](./images/medium3.png)
 ![](./images/medium4.png)
 ![](./images/medium5.png)
+![](./images/medium6.png)
